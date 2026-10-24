@@ -1,0 +1,3 @@
+# .gitkeep – preserves the ml_models/ directory in git
+# Trained .joblib model files will be saved here at runtime.
+# They are excluded from version control via .gitignore.

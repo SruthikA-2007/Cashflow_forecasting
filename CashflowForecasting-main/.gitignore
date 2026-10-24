@@ -1,0 +1,36 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# ── Environment ───────────────────────────────
+.env
+*.env
+
+# ── ML Models (binary artefacts) ─────────────
+backend/ml_models/*.joblib
+backend/ml_models/*.pkl
+!backend/ml_models/.gitkeep
+!backend/ml_models/default/*.joblib
+!backend/ml_models/default/*.json
+
+# ── Frontend / Node ───────────────────────────
+node_modules/
+dist/
+.next/
+build/
+
+# ── Uploads (runtime data) ───────────────────
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ── OS ────────────────────────────────────────
+.DS_Store
+Thumbs.db

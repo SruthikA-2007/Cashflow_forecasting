@@ -1,0 +1,724 @@
+{
+  "monthly_inflows": {
+    "2026-10": 100000.0,
+    "2026-11": 100000.0,
+    "2026-12": 100000.0
+  },
+  "invoices": {
+    "INV-1792426312635": {
+      "invoice_id": "INV-1792426312635",
+      "company_name": "0625-TNJFG",
+      "invoice_amount": 50000.0,
+      "order_date": "2026-10-19",
+      "due_date": "2026-11-18",
+      "due_month": "2026-11",
+      "risk_level": "Low Risk",
+      "risk_probability": 0.11,
+      "predicted_delay_days": 0,
+      "is_high_risk": false,
+      "deducted_amount": 0.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": 0.036461,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.027757,
+          "invoice_weekday": -0.008576,
+          "invoice_quarter": -0.02071,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": -0.23086,
+          "customer_dispute_rate": -0.002663,
+          "customer_risk_drift": -0.022522,
+          "country_avg_dayslate": -0.028743,
+          "disputed": -0.082141,
+          "paperless_bill": 0.0,
+          "country_code_391": 0.003442,
+          "country_code_406": -0.002099,
+          "country_code_770": -0.002699,
+          "country_code_818": -0.001928,
+          "country_code_897": -0.000453
+        },
+        "top_increasing": [
+          {
+            "feature": "invoice_amount",
+            "shap_value": 0.036461,
+            "feature_value": 50000.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.036461
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": 0.003442,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.003442
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": -0.23086,
+            "feature_value": 0.7407,
+            "impact": "decreases_risk",
+            "abs_impact": 0.23086
+          },
+          {
+            "feature": "disputed",
+            "shap_value": -0.082141,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.082141
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": -0.028743,
+            "feature_value": 2.9811,
+            "impact": "decreases_risk",
+            "abs_impact": 0.028743
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.027757,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.027757
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": -0.022522,
+            "feature_value": -0.7407,
+            "impact": "decreases_risk",
+            "abs_impact": 0.022522
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-19T21:42:04.647132"
+    },
+    "INV-1792426339667": {
+      "invoice_id": "INV-1792426339667",
+      "company_name": "8887-NCUZC",
+      "invoice_amount": 50000.0,
+      "order_date": "2026-10-19",
+      "due_date": "2026-11-18",
+      "due_month": "2026-11",
+      "risk_level": "Medium Risk",
+      "risk_probability": 0.35,
+      "predicted_delay_days": 4,
+      "is_high_risk": false,
+      "deducted_amount": 0.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": -0.023432,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.023122,
+          "invoice_weekday": -0.008561,
+          "invoice_quarter": -0.014975,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": 0.046971,
+          "customer_dispute_rate": -0.042648,
+          "customer_risk_drift": 0.020202,
+          "country_avg_dayslate": -0.037617,
+          "disputed": -0.074516,
+          "paperless_bill": 0.0,
+          "country_code_391": 0.009923,
+          "country_code_406": -0.00332,
+          "country_code_770": 0.000215,
+          "country_code_818": -0.002328,
+          "country_code_897": 0.001962
+        },
+        "top_increasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": 0.046971,
+            "feature_value": 5.0588,
+            "impact": "increases_risk",
+            "abs_impact": 0.046971
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": 0.020202,
+            "feature_value": -3.0588,
+            "impact": "increases_risk",
+            "abs_impact": 0.020202
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": 0.009923,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.009923
+          },
+          {
+            "feature": "country_code_897",
+            "shap_value": 0.001962,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.001962
+          },
+          {
+            "feature": "country_code_770",
+            "shap_value": 0.000215,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.000215
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "disputed",
+            "shap_value": -0.074516,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.074516
+          },
+          {
+            "feature": "customer_dispute_rate",
+            "shap_value": -0.042648,
+            "feature_value": 0.3714,
+            "impact": "decreases_risk",
+            "abs_impact": 0.042648
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": -0.037617,
+            "feature_value": 4.3361,
+            "impact": "decreases_risk",
+            "abs_impact": 0.037617
+          },
+          {
+            "feature": "invoice_amount",
+            "shap_value": -0.023432,
+            "feature_value": 50000.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.023432
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.023122,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.023122
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-19T21:42:21.021576"
+    },
+    "INV-1792426355176": {
+      "invoice_id": "INV-1792426355176",
+      "company_name": "9286-VLKMI",
+      "invoice_amount": 50000.0,
+      "order_date": "2026-10-19",
+      "due_date": "2026-11-18",
+      "due_month": "2026-11",
+      "risk_level": "Low Risk",
+      "risk_probability": 0.09,
+      "predicted_delay_days": 0,
+      "is_high_risk": false,
+      "deducted_amount": 0.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": 0.023613,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.023885,
+          "invoice_weekday": 0.011251,
+          "invoice_quarter": -0.018192,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": -0.256713,
+          "customer_dispute_rate": -0.015975,
+          "customer_risk_drift": -0.035536,
+          "country_avg_dayslate": -0.019114,
+          "disputed": -0.063538,
+          "paperless_bill": 0.0,
+          "country_code_391": 0.006077,
+          "country_code_406": -0.001042,
+          "country_code_770": -0.016906,
+          "country_code_818": -0.003579,
+          "country_code_897": 0.002294
+        },
+        "top_increasing": [
+          {
+            "feature": "invoice_amount",
+            "shap_value": 0.023613,
+            "feature_value": 50000.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.023613
+          },
+          {
+            "feature": "invoice_weekday",
+            "shap_value": 0.011251,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.011251
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": 0.006077,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.006077
+          },
+          {
+            "feature": "country_code_897",
+            "shap_value": 0.002294,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.002294
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": -0.256713,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.256713
+          },
+          {
+            "feature": "disputed",
+            "shap_value": -0.063538,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.063538
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": -0.035536,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.035536
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.023885,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.023885
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": -0.019114,
+            "feature_value": 3.4651,
+            "impact": "decreases_risk",
+            "abs_impact": 0.019114
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-19T21:42:36.140620"
+    },
+    "INV-1792555844375": {
+      "invoice_id": "INV-1792555844375",
+      "company_name": "0688-XNJRO",
+      "invoice_amount": 50000.0,
+      "order_date": "2026-10-21",
+      "due_date": "2026-11-20",
+      "due_month": "2026-11",
+      "risk_level": "High Risk",
+      "risk_probability": 0.82,
+      "predicted_delay_days": 14,
+      "is_high_risk": true,
+      "deducted_amount": 50000.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": -0.026506,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.025336,
+          "invoice_weekday": -0.002379,
+          "invoice_quarter": -0.020752,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": 0.299191,
+          "customer_dispute_rate": 0.022367,
+          "customer_risk_drift": 0.017854,
+          "country_avg_dayslate": 0.086091,
+          "disputed": -0.04604,
+          "paperless_bill": 0.0,
+          "country_code_391": 0.011865,
+          "country_code_406": 0.003389,
+          "country_code_770": -0.003615,
+          "country_code_818": 0.003255,
+          "country_code_897": -0.000629
+        },
+        "top_increasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": 0.299191,
+            "feature_value": 14.4242,
+            "impact": "increases_risk",
+            "abs_impact": 0.299191
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": 0.086091,
+            "feature_value": 14.4242,
+            "impact": "increases_risk",
+            "abs_impact": 0.086091
+          },
+          {
+            "feature": "customer_dispute_rate",
+            "shap_value": 0.022367,
+            "feature_value": 0.1471,
+            "impact": "increases_risk",
+            "abs_impact": 0.022367
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": 0.017854,
+            "feature_value": 2.9091,
+            "impact": "increases_risk",
+            "abs_impact": 0.017854
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": 0.011865,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.011865
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "disputed",
+            "shap_value": -0.04604,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.04604
+          },
+          {
+            "feature": "invoice_amount",
+            "shap_value": -0.026506,
+            "feature_value": 50000.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.026506
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.025336,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.025336
+          },
+          {
+            "feature": "invoice_quarter",
+            "shap_value": -0.020752,
+            "feature_value": 4.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.020752
+          },
+          {
+            "feature": "country_code_770",
+            "shap_value": -0.003615,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.003615
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-21T09:40:48.059676"
+    },
+    "INV-1792555929307": {
+      "invoice_id": "INV-1792555929307",
+      "company_name": "0688-XNJRO",
+      "invoice_amount": 30000.0,
+      "order_date": "2026-10-21",
+      "due_date": "2026-11-20",
+      "due_month": "2026-11",
+      "risk_level": "High Risk",
+      "risk_probability": 0.82,
+      "predicted_delay_days": 14,
+      "is_high_risk": true,
+      "deducted_amount": 30000.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": -0.026506,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.025336,
+          "invoice_weekday": -0.002379,
+          "invoice_quarter": -0.020752,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": 0.299191,
+          "customer_dispute_rate": 0.022367,
+          "customer_risk_drift": 0.017854,
+          "country_avg_dayslate": 0.086091,
+          "disputed": -0.04604,
+          "paperless_bill": 0.0,
+          "country_code_391": 0.011865,
+          "country_code_406": 0.003389,
+          "country_code_770": -0.003615,
+          "country_code_818": 0.003255,
+          "country_code_897": -0.000629
+        },
+        "top_increasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": 0.299191,
+            "feature_value": 14.4242,
+            "impact": "increases_risk",
+            "abs_impact": 0.299191
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": 0.086091,
+            "feature_value": 14.4242,
+            "impact": "increases_risk",
+            "abs_impact": 0.086091
+          },
+          {
+            "feature": "customer_dispute_rate",
+            "shap_value": 0.022367,
+            "feature_value": 0.1471,
+            "impact": "increases_risk",
+            "abs_impact": 0.022367
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": 0.017854,
+            "feature_value": 2.9091,
+            "impact": "increases_risk",
+            "abs_impact": 0.017854
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": 0.011865,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.011865
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "disputed",
+            "shap_value": -0.04604,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.04604
+          },
+          {
+            "feature": "invoice_amount",
+            "shap_value": -0.026506,
+            "feature_value": 30000.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.026506
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.025336,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.025336
+          },
+          {
+            "feature": "invoice_quarter",
+            "shap_value": -0.020752,
+            "feature_value": 4.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.020752
+          },
+          {
+            "feature": "country_code_770",
+            "shap_value": -0.003615,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.003615
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-21T09:42:10.182277"
+    },
+    "INV-1792556169977": {
+      "invoice_id": "INV-1792556169977",
+      "company_name": "6708-DPYTF",
+      "invoice_amount": 1000.0,
+      "order_date": "2026-10-21",
+      "due_date": "2026-11-20",
+      "due_month": "2026-11",
+      "risk_level": "Medium Risk",
+      "risk_probability": 0.51,
+      "predicted_delay_days": 8,
+      "is_high_risk": false,
+      "deducted_amount": 0.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": -0.153144,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.016232,
+          "invoice_weekday": 0.003119,
+          "invoice_quarter": -0.011525,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": 0.210059,
+          "customer_dispute_rate": 0.030422,
+          "customer_risk_drift": 0.046216,
+          "country_avg_dayslate": -0.025293,
+          "disputed": -0.067258,
+          "paperless_bill": 0.0,
+          "country_code_391": -0.012214,
+          "country_code_406": -0.001405,
+          "country_code_770": 0.002745,
+          "country_code_818": 0.000938,
+          "country_code_897": 0.002328
+        },
+        "top_increasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": 0.210059,
+            "feature_value": 7.8276,
+            "impact": "increases_risk",
+            "abs_impact": 0.210059
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": 0.046216,
+            "feature_value": 2.8391,
+            "impact": "increases_risk",
+            "abs_impact": 0.046216
+          },
+          {
+            "feature": "customer_dispute_rate",
+            "shap_value": 0.030422,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.030422
+          },
+          {
+            "feature": "invoice_weekday",
+            "shap_value": 0.003119,
+            "feature_value": 2.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.003119
+          },
+          {
+            "feature": "country_code_770",
+            "shap_value": 0.002745,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.002745
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "invoice_amount",
+            "shap_value": -0.153144,
+            "feature_value": 1000.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.153144
+          },
+          {
+            "feature": "disputed",
+            "shap_value": -0.067258,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.067258
+          },
+          {
+            "feature": "country_avg_dayslate",
+            "shap_value": -0.025293,
+            "feature_value": 2.0433,
+            "impact": "decreases_risk",
+            "abs_impact": 0.025293
+          },
+          {
+            "feature": "invoice_month",
+            "shap_value": -0.016232,
+            "feature_value": 10.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.016232
+          },
+          {
+            "feature": "country_code_391",
+            "shap_value": -0.012214,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.012214
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-21T09:46:11.254764"
+    },
+    "INV-1792556192163": {
+      "invoice_id": "INV-1792556192163",
+      "company_name": "3993-QUNVJ",
+      "invoice_amount": 1000.0,
+      "order_date": "2026-10-21",
+      "due_date": "2026-11-20",
+      "due_month": "2026-11",
+      "risk_level": "Low Risk",
+      "risk_probability": 0.06,
+      "predicted_delay_days": 0,
+      "is_high_risk": false,
+      "deducted_amount": 0.0,
+      "shap_explanation": {
+        "shap_values": {
+          "invoice_amount": -0.022636,
+          "payment_term_days": 0.0,
+          "invoice_month": -0.016455,
+          "invoice_weekday": -0.005578,
+          "invoice_quarter": -0.012351,
+          "days_to_due": 0.0,
+          "customer_avg_dayslate": -0.228652,
+          "customer_dispute_rate": -0.030948,
+          "customer_risk_drift": -0.033809,
+          "country_avg_dayslate": -0.01308,
+          "disputed": -0.071033,
+          "paperless_bill": 0.0,
+          "country_code_391": -0.007184,
+          "country_code_406": -0.001852,
+          "country_code_770": -0.000103,
+          "country_code_818": -0.002293,
+          "country_code_897": 0.00473
+        },
+        "top_increasing": [
+          {
+            "feature": "country_code_897",
+            "shap_value": 0.00473,
+            "feature_value": 0.0,
+            "impact": "increases_risk",
+            "abs_impact": 0.00473
+          }
+        ],
+        "top_decreasing": [
+          {
+            "feature": "customer_avg_dayslate",
+            "shap_value": -0.228652,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.228652
+          },
+          {
+            "feature": "disputed",
+            "shap_value": -0.071033,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.071033
+          },
+          {
+            "feature": "customer_risk_drift",
+            "shap_value": -0.033809,
+            "feature_value": 0.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.033809
+          },
+          {
+            "feature": "customer_dispute_rate",
+            "shap_value": -0.030948,
+            "feature_value": 0.08,
+            "impact": "decreases_risk",
+            "abs_impact": 0.030948
+          },
+          {
+            "feature": "invoice_amount",
+            "shap_value": -0.022636,
+            "feature_value": 1000.0,
+            "impact": "decreases_risk",
+            "abs_impact": 0.022636
+          }
+        ],
+        "base_val": 0.5012
+      },
+      "updated_at": "2026-10-21T09:46:33.101569"
+    }
+  },
+  "custom_expenses": {}
+}

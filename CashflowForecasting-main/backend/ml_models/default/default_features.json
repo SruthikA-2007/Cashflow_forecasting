@@ -1,0 +1,22 @@
+{
+  "feature_names": [
+    "invoice_amount",
+    "payment_term_days",
+    "invoice_month",
+    "invoice_weekday",
+    "invoice_quarter",
+    "days_to_due",
+    "customer_avg_dayslate",
+    "customer_dispute_rate",
+    "customer_risk_drift",
+    "country_avg_dayslate",
+    "disputed",
+    "paperless_bill",
+    "country_code_391",
+    "country_code_406",
+    "country_code_770",
+    "country_code_818",
+    "country_code_897"
+  ],
+  "num_features": 17
+}
